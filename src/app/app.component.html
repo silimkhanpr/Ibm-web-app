@@ -1,0 +1,87 @@
+<div style="background-color: black; color: whitesmoke;">
+  <div style="margin-left: 80px;">
+    
+    <h1>
+      <br>
+      <br>Ready to Sell with Ibm Cloud
+      <br>
+      <br>
+    </h1>
+
+    <div style="display: flex; ">
+      <ibm-progress-indicator [steps]="steps" [current]="current"> </ibm-progress-indicator>
+      <ibm-placeholder> </ibm-placeholder>
+    </div>
+
+    <h2>
+      <br>Terms and Conditions
+      <br>
+      <br>
+    </h2>
+    <h4>Offer Terms and Conditions
+      <br>
+      <br>
+    </h4>
+
+    <p>More information on our processing can be found
+      <br> in ibm privacy statement.By submitting this form i acknowledge that i have read
+      <br> and understood ibm privacy statement.
+      <br>
+      <br>
+    </p>
+
+
+    
+      <ibm-checkbox checked="true" [hideLabel]="hideLabel">I accept products terms and conditions
+        <br>of this registration form</ibm-checkbox>
+
+    
+
+    <h2>
+      <br>Embeded Services Agreement</h2>
+    <p> I have read and agree to the entire
+      <br>
+    </p>
+    <a href="" style="text-decoration: underline;">Embeded solution agreement for cloud service
+      <br>
+      <br>
+    </a>
+    <ibm-checkbox checked="true" [hideLabel]="hideLabel">I agree to the ESA terms and conditions</ibm-checkbox>
+
+
+
+    <h2>
+      <br>Ibm Partner World
+      <br>
+    </h2>
+    <p style="font-weight: bold">About Ibm partner world</p>
+    <p>
+      <br>The Ibm partner world program offers valuable
+      <br> benefits and access to exclusive resources
+      <br>to further your business offerings and growth.
+      <br>
+      <br>
+      <br>
+    </p>
+    <fieldset>
+      <ibm-checkbox checked="true" [hideLabel]="hideLabel">Please include my application for Ibm
+        <br> partnerworld with this submission.I
+        <br> understand that my acceptance is
+        <br> dependent upon approval by IBM.
+        <br>
+        <br>
+      </ibm-checkbox>
+      
+      <ibm-checkbox>Not at this time but please send me more
+        <br> information on IBM partner world.<br><br></ibm-checkbox>
+    </fieldset>
+    
+    <button ibmButton="secondary" size="normal" style="position: absolute; left: 600px; " >Back</button>
+    <button ibmButton="primary" size="normal" style="position: absolute;left: 750px" >Continue</button>
+    
+    <p><br><br><br></p>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
